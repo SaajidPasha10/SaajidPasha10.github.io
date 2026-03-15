@@ -225,12 +225,19 @@ body {
   font-style: italic;
 }
 
-/* Hero profile photo */
+/* Hero profile photo - one place only, centered */
+.hero-profile-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .hero-profile-photo-wrap {
   position: relative;
   width: 160px;
   height: 160px;
-  margin: 0 auto;
+  flex-shrink: 0;
   border-radius: 50%;
   border: 4px solid var(--glass-border);
   box-shadow: 0 8px 32px var(--shadow-color);
@@ -262,16 +269,6 @@ body {
   color: var(--accent-primary);
   background: var(--bg-tertiary);
   letter-spacing: -0.02em;
-}
-
-/* About profile photo */
-.about-profile-photo {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid var(--glass-border);
-  box-shadow: 0 6px 24px var(--shadow-color);
 }
 
 /* Buttons */
