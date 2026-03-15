@@ -1,4 +1,4 @@
-# Prince Saajid — Portfolio
+#  Saajid — Portfolio
 
 Modern, responsive personal portfolio for a software developer. Built with HTML5, CSS3, Bootstrap 5, Vanilla JavaScript, and AOS.js. Dark mode by default with light mode toggle.
 
